@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FD065B02DA42FA400F11D95 /* KalmanFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD065AF2DA42FA400F11D95 /* KalmanFilter.swift */; };
 		2FD162062D9CD00A002CD2B5 /* InertialNavigationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD162052D9CD00A002CD2B5 /* InertialNavigationApp.swift */; };
 		2FD1620A2D9CD00B002CD2B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FD162092D9CD00B002CD2B5 /* Assets.xcassets */; };
 		2FD1620D2D9CD00B002CD2B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FD1620C2D9CD00B002CD2B5 /* Preview Assets.xcassets */; };
 		2FD162172D9CD00B002CD2B5 /* InertialNavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD162162D9CD00B002CD2B5 /* InertialNavigationTests.swift */; };
 		2FD162212D9CD00B002CD2B5 /* InertialNavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD162202D9CD00B002CD2B5 /* InertialNavigationUITests.swift */; };
 		2FD162232D9CD00B002CD2B5 /* InertialNavigationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD162222D9CD00B002CD2B5 /* InertialNavigationUITestsLaunchTests.swift */; };
-		2FD162302D9CD0F3002CD2B5 /* Sensors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD1622F2D9CD0F3002CD2B5 /* Sensors.swift */; };
+		2FD162302D9CD0F3002CD2B5 /* AccelerometerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD1622F2D9CD0F3002CD2B5 /* AccelerometerModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2FD065AF2DA42FA400F11D95 /* KalmanFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalmanFilter.swift; sourceTree = "<group>"; };
 		2FD162022D9CD00A002CD2B5 /* InertialNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InertialNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FD162052D9CD00A002CD2B5 /* InertialNavigationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InertialNavigationApp.swift; sourceTree = "<group>"; };
 		2FD162092D9CD00B002CD2B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,7 +45,7 @@
 		2FD1621C2D9CD00B002CD2B5 /* InertialNavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InertialNavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FD162202D9CD00B002CD2B5 /* InertialNavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InertialNavigationUITests.swift; sourceTree = "<group>"; };
 		2FD162222D9CD00B002CD2B5 /* InertialNavigationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InertialNavigationUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		2FD1622F2D9CD0F3002CD2B5 /* Sensors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sensors.swift; sourceTree = "<group>"; };
+		2FD1622F2D9CD0F3002CD2B5 /* AccelerometerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerometerModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				2FD162052D9CD00A002CD2B5 /* InertialNavigationApp.swift */,
-				2FD1622F2D9CD0F3002CD2B5 /* Sensors.swift */,
+				2FD1622F2D9CD0F3002CD2B5 /* AccelerometerModel.swift */,
+				2FD065AF2DA42FA400F11D95 /* KalmanFilter.swift */,
 				2FD162092D9CD00B002CD2B5 /* Assets.xcassets */,
 				2FD1620B2D9CD00B002CD2B5 /* Preview Content */,
 			);
@@ -265,8 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FD065B02DA42FA400F11D95 /* KalmanFilter.swift in Sources */,
 				2FD162062D9CD00A002CD2B5 /* InertialNavigationApp.swift in Sources */,
-				2FD162302D9CD0F3002CD2B5 /* Sensors.swift in Sources */,
+				2FD162302D9CD0F3002CD2B5 /* AccelerometerModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
