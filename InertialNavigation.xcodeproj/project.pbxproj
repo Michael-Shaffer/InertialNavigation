@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F89D72A2DAC22D0004FF139 /* Homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F89D7292DAC22D0004FF139 /* Homepage.swift */; };
+		2F89D72C2DAC2521004FF139 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F89D72B2DAC2521004FF139 /* Map.swift */; };
+		2F89D72E2DAC2868004FF139 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F89D72D2DAC2868004FF139 /* User.swift */; };
 		2FD065B02DA42FA400F11D95 /* KalmanFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD065AF2DA42FA400F11D95 /* KalmanFilter.swift */; };
 		2FD162062D9CD00A002CD2B5 /* InertialNavigationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD162052D9CD00A002CD2B5 /* InertialNavigationApp.swift */; };
 		2FD1620A2D9CD00B002CD2B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FD162092D9CD00B002CD2B5 /* Assets.xcassets */; };
@@ -14,7 +17,7 @@
 		2FD162172D9CD00B002CD2B5 /* InertialNavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD162162D9CD00B002CD2B5 /* InertialNavigationTests.swift */; };
 		2FD162212D9CD00B002CD2B5 /* InertialNavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD162202D9CD00B002CD2B5 /* InertialNavigationUITests.swift */; };
 		2FD162232D9CD00B002CD2B5 /* InertialNavigationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD162222D9CD00B002CD2B5 /* InertialNavigationUITestsLaunchTests.swift */; };
-		2FD162302D9CD0F3002CD2B5 /* AccelerometerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD1622F2D9CD0F3002CD2B5 /* AccelerometerModel.swift */; };
+		2FD162302D9CD0F3002CD2B5 /* Accelerometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD1622F2D9CD0F3002CD2B5 /* Accelerometer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F89D7292DAC22D0004FF139 /* Homepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homepage.swift; sourceTree = "<group>"; };
+		2F89D72B2DAC2521004FF139 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		2F89D72D2DAC2868004FF139 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		2FD065AF2DA42FA400F11D95 /* KalmanFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalmanFilter.swift; sourceTree = "<group>"; };
 		2FD162022D9CD00A002CD2B5 /* InertialNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InertialNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FD162052D9CD00A002CD2B5 /* InertialNavigationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InertialNavigationApp.swift; sourceTree = "<group>"; };
@@ -45,7 +51,7 @@
 		2FD1621C2D9CD00B002CD2B5 /* InertialNavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InertialNavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FD162202D9CD00B002CD2B5 /* InertialNavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InertialNavigationUITests.swift; sourceTree = "<group>"; };
 		2FD162222D9CD00B002CD2B5 /* InertialNavigationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InertialNavigationUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		2FD1622F2D9CD0F3002CD2B5 /* AccelerometerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerometerModel.swift; sourceTree = "<group>"; };
+		2FD1622F2D9CD0F3002CD2B5 /* Accelerometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accelerometer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F89D7232DAC0653004FF139 /* Nav */ = {
+			isa = PBXGroup;
+			children = (
+				2FD065AF2DA42FA400F11D95 /* KalmanFilter.swift */,
+				2FD1622F2D9CD0F3002CD2B5 /* Accelerometer.swift */,
+			);
+			path = Nav;
+			sourceTree = "<group>";
+		};
+		2F89D7242DAC0682004FF139 /* Display */ = {
+			isa = PBXGroup;
+			children = (
+				2F89D7292DAC22D0004FF139 /* Homepage.swift */,
+				2F89D72B2DAC2521004FF139 /* Map.swift */,
+			);
+			path = Display;
+			sourceTree = "<group>";
+		};
 		2FCF29B12D9D901C0007D5AD /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,8 +129,9 @@
 			isa = PBXGroup;
 			children = (
 				2FD162052D9CD00A002CD2B5 /* InertialNavigationApp.swift */,
-				2FD1622F2D9CD0F3002CD2B5 /* AccelerometerModel.swift */,
-				2FD065AF2DA42FA400F11D95 /* KalmanFilter.swift */,
+				2F89D72D2DAC2868004FF139 /* User.swift */,
+				2F89D7242DAC0682004FF139 /* Display */,
+				2F89D7232DAC0653004FF139 /* Nav */,
 				2FD162092D9CD00B002CD2B5 /* Assets.xcassets */,
 				2FD1620B2D9CD00B002CD2B5 /* Preview Content */,
 			);
@@ -268,9 +293,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F89D72C2DAC2521004FF139 /* Map.swift in Sources */,
 				2FD065B02DA42FA400F11D95 /* KalmanFilter.swift in Sources */,
+				2F89D72E2DAC2868004FF139 /* User.swift in Sources */,
 				2FD162062D9CD00A002CD2B5 /* InertialNavigationApp.swift in Sources */,
-				2FD162302D9CD0F3002CD2B5 /* AccelerometerModel.swift in Sources */,
+				2FD162302D9CD0F3002CD2B5 /* Accelerometer.swift in Sources */,
+				2F89D72A2DAC22D0004FF139 /* Homepage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +465,8 @@
 				DEVELOPMENT_TEAM = U336L3336G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_FILE[sdk=*]" = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

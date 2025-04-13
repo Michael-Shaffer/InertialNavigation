@@ -11,7 +11,11 @@ import SwiftUI
 struct InertialNavigationApp: App {
     var body: some Scene {
         WindowGroup {
-            SensorsView()
+            HomeView()
         }
     }
+}
+
+#Preview {
+    HomeView()
 }
